@@ -1,0 +1,44 @@
+﻿body {
+    margin: auto;
+}
+
+.h1 {
+    font-variant-caps:small-caps;
+}
+
+header{
+    background-color:black;
+    color:white;
+    display:flex;
+    padding:1em;
+    font-variant:small-caps;
+
+}
+
+.logo {
+    max-width: 4em;
+}
+
+.ccc-jumbotron {
+    background-image: url('../img/chocolateCherryCookies.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 1em;
+    margin: .2em;
+}
+
+.gold {
+    color:gold;
+}
+
+.mCenter {
+    margin:auto;
+}
+
+.center {
+    vertical-align: central;
+}
+
+.bottom {
+    vertical-align:bottom;
+}
