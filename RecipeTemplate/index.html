@@ -25,83 +25,84 @@
     <script src="Scripts/popper-utils.min.js"></script>
     <script src="Scripts/popper.js"></script>
     <script src="Scripts/popper.min.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;500&family=Merriweather+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet" />
 </head>
 <body>
     <header class="d-block">
         <div class="row">
-            <div class="col d-inline">
-                <img src="img/chefHatSmall.png" alt="chef hat" class="img-fluid logo" />
-            </div>
-            <div>
-                <h2>ChefSite.com</h2>
-            </div>
-            <div>
-                <input type="text" name="SEARCH" value="" class="float-right m-2" />
-                <div class="clearfix"></div>
+            <div class="col d-inline-block clearfix">
+                <a href="#"><img src="img/chefHatSmall.png" alt="chef hat" class="img-fluid logo" /><span class="lemonada logoText ml-2">ChefSite.com</span></a>
+                <!-- Add font awesome search to name space of input -->
+                <input type="text" name="" class="float-right m-2" />   
             </div>
         </div>
+        <nav class="d-block clearfix mx-auto">
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Favorites</a>
+            <a href="#">Contact</a>
+            <a href="#" class="float-right">Login</a>
+        </nav>
     </header>
-    <nav class="d-inline-block">
-        <a href="#">Home</a>
-        <a href="#">Recipes</a>
-        <a href="#">Favorites</a>
-        <a href="#">Contact</a>
-        <a href="#">Login</a>
-    </nav>
     <!-- Jumbotron with recipe name and star rating -->
     <section class="jumbotron-fluid ccc-jumbotron">
         <script src="Scripts/popper.js"></script>
         <h1>Chocolate Cherry Cookies</h1>
         <h2 class="gold">&#9733; &#9733; &#9733; &#9733; &#9734;</h2>
     </section>
-    <section class="mCenter">
-        <article class="d-inline-block">
-            <p class="lead">
-                Brief keyword packed introduction that will help w/SEO but not piss off someone wanting a quick answer to how to make some scrumptious Chocolate Cherry Cookies.
-            </p>
-            <div class="row">
-                <div class="col-md-8 col-sm-9"><img src="img/insideCCCSmall.jpg" alt="Inside the cookie" class="img-fluid w-75" /></div>
-                <div class="col-md-4 col-sm-3">
-                    <ul>
-                        <li>Prep Time: 15 min</li>
-                        <li>Oven Temp: 350&deg;</li>
-                        <li>Bake Time: 8-10 min</li>
-                        <li>Yield: 2.5 dozen</li>
-                        <li>Allergies: eggs</li>
-                    </ul>
+    <div class="container-fluid">
+        <section class="mCenter">
+            <article class="d-inline-block">
+                <p class="lead">
+                    Brief keyword packed introduction that will help w/SEO but not piss off someone wanting a quick answer to how to make some scrumptious Chocolate Cherry Cookies.
+                </p>
+                <div class="row">
+                    <div class="col-md-8 col-sm-9"><img src="img/insideCCCSmall.jpg" alt="Inside the cookie" class="img-fluid w-75" /></div>
+                    <div class="col-md-4 col-sm-3">
+                        <ul>
+                            <li>Prep Time: 15 min</li>
+                            <li>Oven Temp: 350&deg;</li>
+                            <li>Bake Time: 8-10 min</li>
+                            <li>Yield: 2.5 dozen</li>
+                            <li>Allergies: eggs</li>
+                        </ul>
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
                 </div>
-            </div>
-        </article>
-        <article>
-            <h3>Ingredients</h3>
-            <ul>
-                <li>1C (2 sticks) butter softened</li>
-                <li>1C sugar</li>
-                <li>1C brown sugar</li>
-                <li>2 eggs</li>
-                <li>2t vanilla extract</li>
-                <li>3C all purpose flour</li>
-                <li>3/4C cocoa powder</li>
-                <li>1t baking soda</li>
-                <li>1/4t salt</li>
-                <li>1C dried cherries</li>
-            </ul>
-            <h3>Directions:</h3>
-            <p>
-                <ol>
-                    <li>Preheat your oven to 350&deg;</li>
-                    <li>Mix dry ingredients in mid size bowl: sift the flour, cocoa powder, baking soda, & salt.</li>
-                    <li>Mix wet ingredients in a small bowl: crean the butter, sugar, brown sugar, eggs, vanilla extract. </li>
-                    <li>Slowly pour the wet ingredients into the dry ingredients until mixed and add the cherries.</li>
-                    <li>Bake on a nonstick or pre-prepared baking sheet for 8-10 minutes. Allow cookies to cool for a few minutes before transfurring to a cooling rack</li>
-                </ol>
-            </p>
-        </article>
-    </section>
-    <section>
-        <h2>Reviews:</h2>
-    </section>
+            </article>
+            <article>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>1C (2 sticks) butter softened</li>
+                    <li>1C sugar</li>
+                    <li>1C brown sugar</li>
+                    <li>2 eggs</li>
+                    <li>2t vanilla extract</li>
+                    <li>3C all purpose flour</li>
+                    <li>3/4C cocoa powder</li>
+                    <li>1t baking soda</li>
+                    <li>1/4t salt</li>
+                    <li>1C dried cherries</li>
+                </ul>
+                <h3>Directions:</h3>
+                <p>
+                    <ol>
+                        <li>Preheat your oven to 350&deg;</li>
+                        <li>Mix dry ingredients in mid size bowl: sift the flour, cocoa powder, baking soda, & salt.</li>
+                        <li>Mix wet ingredients in a small bowl: crean the butter, sugar, brown sugar, eggs, vanilla extract. </li>
+                        <li>Slowly pour the wet ingredients into the dry ingredients until mixed and add the cherries.</li>
+                        <li>Bake on a nonstick or pre-prepared baking sheet for 8-10 minutes. Allow cookies to cool for a few minutes before transfurring to a cooling rack</li>
+                    </ol>
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>Reviews:</h2>
+        </section>
+    </div>
     <footer></footer>
 </body>
 </html>

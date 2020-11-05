@@ -1,9 +1,19 @@
 ﻿body {
     margin: auto;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
-.h1 {
-    font-variant-caps:small-caps;
+.merriweatherSans {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.lemonada {
+    font-family: 'Lemonada', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-variant-caps: small-caps;
+    font-family: 'Lemonada', cursive;
 }
 
 header{
@@ -12,11 +22,30 @@ header{
     display:flex;
     padding:1em;
     font-variant:small-caps;
+    vertical-align: bottom;
+}
+header a:link, a:visited {
+    color: white;
+    margin-right: 1em;
+}
+header a:hover, active {
+    color: gold;
+    text-decoration: none;
+}
 
+nav {
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
     max-width: 4em;
+}
+
+.logoText {
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-shadow:unset 20px 12px 2px #808080;/*Now working*/
 }
 
 .ccc-jumbotron {
@@ -24,7 +53,7 @@ header{
     background-size:cover;
     background-repeat:no-repeat;
     padding: 1em;
-    margin: .2em;
+
 }
 
 .gold {
