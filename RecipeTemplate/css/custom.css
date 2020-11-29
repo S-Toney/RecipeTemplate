@@ -9,6 +9,10 @@ body img {
     border-radius: 20px;
 }
 
+.round {
+    border-radius: 50%;
+}
+
 #recipeImg {
     display: block;
     z-index: 1;
@@ -111,4 +115,8 @@ nav {
 
 .bottom {
     vertical-align:bottom;
+}
+
+.reviews {
+    vertical-align: central;
 }

@@ -94,6 +94,12 @@
     <Content Include="img\insideCCCSmall.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\profileImage1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\profileImage1sm.jpg" />
+    <Content Include="img\profileImage2.jpg" />
+    <Content Include="img\profileIMage2sm.jpg" />
     <Content Include="img\tallAdPlaceholder.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
