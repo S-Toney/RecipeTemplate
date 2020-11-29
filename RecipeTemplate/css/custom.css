@@ -1,5 +1,6 @@
 ﻿body {
     margin: auto;
+    font-size: 16px;
     font-family: 'Merriweather Sans', sans-serif;
     background-color: rgba(153, 111, 99, .5);
 }
@@ -9,11 +10,11 @@ body img {
 }
 
 #recipeImg {
-    background-image: url('../img/insideCCCSmall.jpg');
     display: block;
     z-index: 1;
     /*max-height: ;*/
     min-height: 150px;
+    position: relative;
 }
 
 #recipeIcon {
@@ -22,6 +23,14 @@ body img {
     font-size: 2.5em;
     z-index: 2;
     padding: 2em;
+}
+
+#recipeImg .fa-heart-o {
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    color: red;
+    text-shadow: 2px 2px 3px #e1b7ab;
 }
 
 .merriweatherSans {
